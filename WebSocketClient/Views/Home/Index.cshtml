@@ -1,0 +1,12 @@
+﻿<h1>WebSocket Client</h1>
+<h1>Kripto Fiyat Abonelikleri</h1>
+
+<button onclick="subscribeToSymbol('BTCUSDT')">BTC-USDT'ye Abone Ol</button>
+<button onclick="subscribeToSymbol('ETHUSDT')">ETH-USDT'ye Abone Ol</button>
+<button onclick="subscribeToSymbol('BNBUSDT')">BNB-USDT'ye Abone Ol</button>
+
+<button onclick="unsubscribeFromSymbol('BTCUSDT')">BTC-USDT Aboneliğini İptal Et</button>
+<button onclick="unsubscribeFromSymbol('ETHUSDT')">ETH-USDT Aboneliğini İptal Et</button>
+<button onclick="unsubscribeFromSymbol('BNBUSDT')">BNB-USDT Aboneliğini İptal Et</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.6/signalr.min.js"></script>
+<script src="~/js/websocket-client.js"></script>
